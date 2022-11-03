@@ -1,0 +1,55 @@
+/*Below the Navigation Bar, Page Content starts here*/
+.content{
+  position: relative;
+  top: 120px;
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  border: 5px solid #00b140;
+  padding: 8px;
+  font-family: "Helvetica";
+}
+
+.counter_card{
+  padding-bottom: 15px;
+  font-family: "Helvetica";
+}
+
+.countdown{
+  display: inline-block;
+  font-size: 25px;
+  width: 45px;
+  margin: 0 auto; 
+  padding: 10px; 
+  background-color: #e98300; 
+  border: 1px solid #e98300;
+  border-radius: 5px;
+  position: relative;
+  white-space: nowrap;
+  font-family: "Helvetica";
+ }
+
+.label1{
+  display: inline-block;
+  width: 6em;
+  margin-right: .5em;
+  padding-top: 1.7em;
+  font-weight: bold;
+  font-family: "Helvetica";
+}
+
+.register-button{
+  background-color: #53284f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px; /* 5px rounded corners */
+  font-family: "Helvetica";
+}

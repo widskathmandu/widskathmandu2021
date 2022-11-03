@@ -1,0 +1,73 @@
+.speaker-header{
+	position: relative;
+	margin: 0 auto;
+	top:2px;
+}
+
+.speakers{
+	padding-top: 0px;
+	margin: auto;
+	margin-bottom: 0;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	padding-left: 20px;	
+}
+
+.row{
+	width: 80%;
+	margin: auto;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Float four columns side by side */
+/* Style the picture/column cards */
+.column {
+  float: left;
+  width: 20%;
+  padding: 14px;
+  text-align: center;
+  background-color: white;
+  font-style: normal;
+  height: 400px;
+}
+
+.text-container{
+  padding: 5px;
+}
+
+.name{
+  font-size: 16px;
+  font-family: "Helvetica";
+  color: #231F20;
+}
+.title{
+  font-style:normal;
+  font-family: "Helvetica";
+  line-height: 20px;
+  font-size: 15px;
+  color: #231F20;
+}
+/* Responsive columns - one column layout on small screens*/
+@media screen and (max-width: 768px) {
+   .row {
+     display: grid;
+     grid-template-columns: auto auto auto;
+   }
+
+  .column {
+    width: 90%;
+    padding: 20px;
+    display: block;
+    margin-left: -5vh;
+    margin-bottom: 20px;
+  }
+}
